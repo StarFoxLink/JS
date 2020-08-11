@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - TipCalculator</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <title>Calculator</title>
+  <body>
+    <div id="content">
+    <h1>Tip Calculator</h1>
+  <div id = "user">
+    <p class="label">Enter your total bill amount</p><br>
+    <input type="text" id="bill" placeholder="$"><br>
+    <p class="label">Enter percent you wish to tip</p><br>
+    <input type="text" id="percent" placeholder="%"><br>
+    <p class="label">How many people are splitting the check?</p><br>
+    <input type ="text" id="guests">
+  </div><br>
+      <button id="button" onclick="calculate()">Calculate tip</button>
+      <br>
+  <p>The total tip is: </p>
+      <p id="printTip"></p>
+
+      <p>Per person tip amount is: </p>
+      
+      <p id="printPerPerson"></p>
+      
+      <p>Total Cost: </p>
+      <p id="total"></p>
+    </div>
+  </body>
+  
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
